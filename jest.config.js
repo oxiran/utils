@@ -7,8 +7,8 @@ module.exports = {
   collectCoverage: true,
   coverageDirectory: './test/coverage',
   coverageProvider: 'v8',
-  coverageReporters: ['json','text','lcov','text-summary'],
-  moduleFileExtensions: ['js', 'jsx','mjs','cjs','ts','tsx'],
+  coverageReporters: ['json', 'text', 'lcov', 'text-summary'],
+  moduleFileExtensions: ['js', 'jsx', 'mjs', 'cjs', 'ts', 'tsx'],
   preset: 'ts-jest',
   testEnvironment: 'jest-environment-jsdom',
   testMatch: [
@@ -18,4 +18,4 @@ module.exports = {
   transform: {
     '^.+\\.ts$': 'ts-jest',
   },
-}
+};
