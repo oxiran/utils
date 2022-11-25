@@ -1,3 +1,5 @@
+## [1.0.1](https://github.com/oxiran/utils/compare/v1.0.0...v1.0.1) (2022-11-25)
+
 # 1.0.0 (2022-11-19)
 
 
