@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/oxiran/utils/compare/v1.0.1...v1.1.0) (2022-11-27)
+
+
+### Features
+
+* :sparkles: Add getUrlQuery utils ([c7e74e2](https://github.com/oxiran/utils/commit/c7e74e22fdf3effc2edb1bafd24bbbfa1206f98e))
+
 ## [1.0.1](https://github.com/oxiran/utils/compare/v1.0.0...v1.0.1) (2022-11-25)
 
 # 1.0.0 (2022-11-19)
