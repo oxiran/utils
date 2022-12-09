@@ -56,6 +56,7 @@ describe('Test formatDate', () => {
     expect(formatDate(date, 'hh:mm:ss')).toEqual(`${time12}`);
     expect(formatDate(date, 'HH:mm:ss')).toEqual(`${time24}`);
     expect(formatDate(new Date('2022-11-17 00:11:12'), 'hh:mm:ss')).toEqual('12:11:12');
+    expect(formatDate(new Date('2022-11-17 13:11:12'), 'hh:mm:ss')).toEqual('01:11:12');
   });
 
   test('Different symbol', () => {
