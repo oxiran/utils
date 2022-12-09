@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/oxiran/utils/compare/v1.1.0...v1.2.0) (2022-12-09)
+
+
+### Features
+
+* :sparkles: Add throttle utils ([7999e19](https://github.com/oxiran/utils/commit/7999e198a9f7272885c1aec8f0589199bf030020))
+
 # [1.1.0](https://github.com/oxiran/utils/compare/v1.0.1...v1.1.0) (2022-11-27)
 
 
