@@ -1,6 +1,6 @@
 {
   "name": "@oxiran/utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared utils of my project.",
   "main": "dist/utils.js",
   "module": "dist/utils.esm.js",

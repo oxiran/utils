@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/oxiran/utils/compare/v1.2.0...v1.2.1) (2022-12-18)
+
+
+### Bug Fixes
+
+* :bug: Fixed throttle function has not been invoked at the first time ([9cb332e](https://github.com/oxiran/utils/commit/9cb332e2fb970e62d1ad0de191f07d2f36cb1b6f))
+
 # [1.2.0](https://github.com/oxiran/utils/compare/v1.1.0...v1.2.0) (2022-12-09)
 
 
