@@ -28,19 +28,19 @@ describe('Test throtte function', () => {
 
     throtteFn();
     jest.runAllTimers();
-    expect(fn).toHaveBeenCalledTimes(0);
+    expect(fn).toHaveBeenCalledTimes(1);
 
     setTimeout(() => {
       throtteFn();
     }, 90);
     jest.runAllTimers();
-    expect(fn).toHaveBeenCalledTimes(0);
+    expect(fn).toHaveBeenCalledTimes(1);
 
     setTimeout(() => {
       throtteFn();
     }, 110);
     jest.runAllTimers();
-    expect(fn).toHaveBeenCalledTimes(1);
+    expect(fn).toHaveBeenCalledTimes(2);
   });
 
   test('Test invoked in a long time', () => {
@@ -54,6 +54,6 @@ describe('Test throtte function', () => {
       }, i * 50);
     }
     jest.runAllTimers();
-    expect(fn).toHaveBeenCalledTimes(i - 1);
+    expect(fn).toHaveBeenCalledTimes(i);
   });
 });
