@@ -10,13 +10,20 @@ export function throttle(fn: () => void, delay = 20): () => void {
   }
 
   let startTime = new Date().valueOf();
+  let flag = false; // Is it the first time to invoke.
 
   return function (this: unknown, ...args: []): any {
+    if (!flag && delay !== 0) {
+      flag = true;
+      return fn.apply(this, args);
+    }
+
     const currentTime = new Date().valueOf();
     if (currentTime - startTime >= delay) {
       startTime = currentTime;
       return fn.apply(this, args);
     }
+
     return undefined;
   };
 }
